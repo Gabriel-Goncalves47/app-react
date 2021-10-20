@@ -1,0 +1,18 @@
+.navBar{
+  background-color: silver;
+  padding: 15px 10px 15px 10px;
+}
+
+.navBar button {
+  text-decoration: none;
+  background-color: silver;
+  padding: 10px 10px;
+  color: black;
+  border: none
+}
+
+.navBar button:hover {
+  background-color: gray;
+  color: gold;
+}
+
