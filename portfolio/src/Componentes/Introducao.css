@@ -1,0 +1,26 @@
+.eu {
+    text-align: center;
+    background-color: cornsilk;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 16px;
+    margin: 8px 0;
+  }
+  
+.tabela {
+    background-color: whitesmoke;
+    font-family: Arial;
+    font-size: 40px;
+    padding: 40px 0;
+    margin: 8px 0;
+  }
+
+.tabela img{
+    width: 180px;
+}
+  
+table {
+    width: 100%;
+    text-align: center;
+  }
+
