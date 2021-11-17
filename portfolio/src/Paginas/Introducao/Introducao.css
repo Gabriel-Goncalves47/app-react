@@ -1,18 +1,23 @@
 .eu {
+    width: 90vw;
     text-align: center;
     background-color: cornsilk;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     padding: 16px;
     margin: 8px 0;
+    box-sizing: border-box;
   }
   
 .tabela {
+    width: 90vw;
     background-color: whitesmoke;
     font-family: Arial;
     font-size: 40px;
-    padding: 40px 0;
+    padding: 20px 10px;
     margin: 8px 0;
+    box-sizing: border-box;
+    height: 60vh;
   }
 
 .tabela img{
@@ -23,4 +28,12 @@ table {
     width: 100%;
     text-align: center;
   }
+
+.introduction-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, black, grey);
+}
 

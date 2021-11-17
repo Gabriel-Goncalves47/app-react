@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+iframe{
+    width: 90vw;
+    height: 75vh;
+    border: 1px solid silver;
+    box-shadow: 1px 1px 5px whitesmoke;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.projeto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.galery-page{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: honeydew;
+    background-image: linear-gradient(to bottom right, black, grey);
+}
