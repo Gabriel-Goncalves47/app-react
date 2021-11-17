@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#linked{
+    color: white;
+    font-size: 56px;
+}
+
+#insta{
+    color: white;
+    font-size: 56px;
+}
+
+#github{
+    color: white;
+    font-size: 56px;
+}
+
+#face{
+    color: white;
+    font-size: 56px;
+}
+
+#whats{
+    color: white;
+    font-size: 56px;
+}
+
+#titulo-contatos{
+    color: burlywood;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 2px 2px whitesmoke, 2px 2px 12px white;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: space-around;
+}
+
+.teste{
+    color: whitesmoke;
+}
+
+.teste:focus{
+    box-shadow: 2px 2px 7px black;
+}
+
+.lip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s;
+}
+
+.lip:hover{
+    transform: translate(0, -5px);
+    box-shadow: 2px 2px 7px yellow;
+}
+
+.contact-page{
+    color: burlywood;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 1px 1px 5px whitesmoke;
+    background-image: linear-gradient(to bottom right, black, grey);
+    height: 100vh;
+}

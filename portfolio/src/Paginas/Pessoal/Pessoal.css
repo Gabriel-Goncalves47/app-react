@@ -1,0 +1,36 @@
+.apresentacao{
+    background-color: cornsilk;
+    padding: 8px;
+    margin: 8px 0;
+    font-size: 20px;
+    width: 90vw;
+}
+
+.apresentacao h1{
+    text-align: center;
+}
+
+.habilidades{
+    width: 90vw;
+    background-color: antiquewhite;
+    padding: 8px;
+    margin: 8px 0;
+    font-size: 20px;
+}
+
+#titulo-habilidades{
+    text-align: center;
+}
+
+#lista-habilidades{
+    list-style-type: none;
+    text-align: center;
+}
+
+.personal-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, black, grey);
+}
