@@ -12,9 +12,17 @@ a {
     font-size: 56px;
 }
 
+#linked:hover{
+    box-shadow: 2px 2px 7px yellow;
+}
+
 #insta{
     color: white;
     font-size: 56px;
+}
+
+#insta:hover{
+    box-shadow: 2px 2px 7px yellow;
 }
 
 #github{
@@ -22,14 +30,26 @@ a {
     font-size: 56px;
 }
 
+#github:hover{
+    box-shadow: 2px 2px 7px yellow;
+}
+
 #face{
     color: white;
     font-size: 56px;
 }
 
+#face:hover{
+    box-shadow: 2px 2px 7px yellow;
+}
+
 #whats{
     color: white;
     font-size: 56px;
+}
+
+#whats:hover{
+    box-shadow: 2px 2px 7px yellow;
 }
 
 #titulo-contatos{
@@ -63,6 +83,12 @@ a {
     box-shadow: 2px 2px 7px black;
 }
 
+.tootext{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
 .lip{
     display: flex;
     flex-direction: column;
@@ -71,15 +97,31 @@ a {
     transition: transform 0.5s;
 }
 
+.lip:hover .tootext{
+    visibility: visible;
+    opacity: 1;
+}
+
 .lip:hover{
     transform: translate(0, -5px);
-    box-shadow: 2px 2px 7px yellow;
+    /* box-shadow: 2px 2px 7px yellow; */
 }
 
 .contact-page{
     color: burlywood;
     font-family: "Sofia", sans-serif;
     text-shadow: 1px 1px 5px whitesmoke;
+    /* background-image: radial-gradient(gold, lightblue, blue, whitesmoke); */
     background-image: linear-gradient(to bottom right, black, grey);
-    height: 100vh;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-page{
+        color: burlywood;
+        font-family: "Sofia", sans-serif;
+        text-shadow: 1px 1px 5px whitesmoke;
+        background-image: linear-gradient(to bottom right, black, grey);
+        height: 100%;
+    }
 }
