@@ -28,9 +28,30 @@
 }
 
 .personal-page{
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     background-image: linear-gradient(to bottom right, black, grey);
+}
+
+@media only screen and (max-width: 600px) {
+    .apresentacao{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 601px) {
+    .personal-page {
+        height: 100%;
+    }
+
+    .apresentacao{
+        font-size: 30px;
+    }
+
+    .habilidades{
+        font-size: 32px;
+    }
 }
