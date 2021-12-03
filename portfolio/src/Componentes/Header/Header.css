@@ -1,0 +1,50 @@
+.nav-button{
+    text-decoration: none;
+    background-color: silver;
+    padding: 5px 10px;
+    color: black;
+    border: none;
+}
+
+.nav-button:hover{
+    background-color: gray;
+    color: gold;
+}
+
+.nav-button:active{
+    background-color: black;
+}
+
+.nav{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: silver;
+    padding: 10px;
+}
+
+.header-comp{
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 601px) {
+    .header-comp{
+        height: 8vw;
+        margin-bottom: 20px;
+    }
+
+    .nav-button{
+        height: 90%;
+        font-size: 26px;
+    }
+}

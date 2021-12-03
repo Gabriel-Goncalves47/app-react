@@ -13,7 +13,7 @@ a {
 }
 
 #linked:hover{
-    box-shadow: 2px 2px 7px yellow;
+    filter: drop-shadow(2px 2px 7px yellow);
 }
 
 #insta{
@@ -22,7 +22,7 @@ a {
 }
 
 #insta:hover{
-    box-shadow: 2px 2px 7px yellow;
+    filter: drop-shadow(2px 2px 7px yellow);
 }
 
 #github{
@@ -31,7 +31,7 @@ a {
 }
 
 #github:hover{
-    box-shadow: 2px 2px 7px yellow;
+    filter: drop-shadow(2px 2px 7px yellow);
 }
 
 #face{
@@ -40,7 +40,7 @@ a {
 }
 
 #face:hover{
-    box-shadow: 2px 2px 7px yellow;
+    filter: drop-shadow(2px 2px 7px yellow);
 }
 
 #whats{
@@ -49,13 +49,13 @@ a {
 }
 
 #whats:hover{
-    box-shadow: 2px 2px 7px yellow;
+    filter: drop-shadow(2px 2px 7px yellow);
 }
 
 #titulo-contatos{
     color: burlywood;
     font-family: "Sofia", sans-serif;
-    text-shadow: 2px 2px whitesmoke, 2px 2px 12px white;
+    text-shadow: 1px 1px whitesmoke, 1px 1px 12px white;
 }
 
 .titulo{
@@ -104,24 +104,58 @@ a {
 
 .lip:hover{
     transform: translate(0, -5px);
-    /* box-shadow: 2px 2px 7px yellow; */
 }
 
 .contact-page{
     color: burlywood;
     font-family: "Sofia", sans-serif;
-    text-shadow: 1px 1px 5px whitesmoke;
-    /* background-image: radial-gradient(gold, lightblue, blue, whitesmoke); */
+    text-shadow: 1px 1px 3px whitesmoke;
     background-image: linear-gradient(to bottom right, black, grey);
     height: 100%;
 }
 
 @media only screen and (max-width: 600px) {
+    .contato{
+        height: 50vh;
+    }
+
+    .redes-sociais{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 601px) {
     .contact-page{
+        height: 100%;
+        font-size: 32px;
+    }
+
+    #titulo-contatos{
         color: burlywood;
         font-family: "Sofia", sans-serif;
-        text-shadow: 1px 1px 5px whitesmoke;
-        background-image: linear-gradient(to bottom right, black, grey);
-        height: 100%;
+        text-shadow: 1px 1px 3px whitesmoke;
+    }
+
+    #whats{
+        font-size: 120px;
+    }
+
+    #insta{
+        font-size: 120px;
+    }
+
+    #face{
+        font-size: 120px;
+    }
+
+    #linked{
+        font-size: 120px;
+    }
+
+    #github{
+        font-size: 120px;
     }
 }

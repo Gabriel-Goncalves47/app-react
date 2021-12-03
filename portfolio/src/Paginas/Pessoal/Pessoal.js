@@ -6,7 +6,6 @@ const Pessoal = () => {
     return (
         <div className='personal-page'>
             <Header />
-            <div className='cabecalho'></div>
             <div className='apresentacao'>
                 <h1>Breve apresentação</h1>
                 <br />
@@ -42,7 +41,15 @@ const Pessoal = () => {
                     <br />
                     <li>Git;</li>
                     <br />
-                    <li>Github.</li>
+                    <li>Github;</li>
+                    <br/>
+                    <li>SQL;</li>
+                    <br/>
+                    <li>Typescript;</li>
+                    <br/>
+                    <li>Node.js;</li>
+                    <br/>
+                    <li>API REST.</li>
                 </ul>
             </div>
         </div>
